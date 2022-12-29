@@ -12,7 +12,7 @@ request_options = ["I", "V", "B", "P", "U", "L"]
 
 while True:
     request = input(
-            "I : Insertion of a new row\nV : View all Rows\nP : View Popular Movies\nU : Update the rating\nL : Sort Movies by Language\nB : END\n")
+            "I : Insertion of a new row\n V : View all Rows\n P : View Popular Movies\n U : Update the rating\n L : Sort Movies by Language\n B : END\n")
     if request in request_options:
         req_str = str(request)
         if request == "B":
